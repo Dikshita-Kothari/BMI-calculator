@@ -1,0 +1,147 @@
+
+body{
+    margin: 0;
+    background-color: #D4ADFC;
+}
+/* navbar */
+#nav{
+    background-color: #3f2e72;
+    margin: 0;
+    padding: 0.4%;
+}
+
+/* text */
+h1{
+    margin: 1rem auto 1rem 3rem;
+    font-size: 40px;
+    font-weight: bold;
+    /* color: #0C134F; */
+    color: #B799FF;
+}
+
+h3{
+    margin: 2rem;
+    font-weight: bold;
+}
+
+p{
+    line-height: 1.8rem;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2rem;
+}
+/* block - rows and columns */
+.info {
+    background-color: #5C469C;
+    height: 100%;
+    padding: 32px;
+    border-radius: 5rem;
+}
+
+.block {
+    padding: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.row{
+    padding: 0;
+    margin: 0;
+}
+
+/* for table */
+table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+.tabble{
+    margin-top: 15%;
+}
+
+.table-heading{
+    font-weight: bold;
+}
+.table-heading-2{
+    font-weight: 630;
+}
+
+/* for text in input field */
+.inuick {
+    padding-right: 32px;
+}
+.infull {
+    width: 226px;
+}
+.inuickspan {
+    margin-left: -27px;
+    color: #888;
+}
+
+/* calculator */
+#female{
+    margin-left: 2rem;
+    margin-right: 0.4rem;
+}
+#male{
+    margin-right: 0.4rem;
+}
+#age{
+    width: 45%;
+}
+
+form table td{
+    border: 0;
+    padding: 1rem;
+    text-align: center;
+
+}
+.detail{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.bttn{
+    background-color: #D4ADFC;
+    border-radius: 8%;
+    border: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.bttn:hover{
+    background-color: #ddc7f4;
+}
+
+.info-cal {
+    background-color: #5C469C;
+    height: 100%;
+    padding: 32px;
+    border-radius: 5rem;
+}
+
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h1{
+        font-size: 28px;
+        margin: 1rem;
+        font-weight: bold;
+        color: #B799FF;
+    }
+    .tabble{
+        margin-top: 0;
+    }
+  }
